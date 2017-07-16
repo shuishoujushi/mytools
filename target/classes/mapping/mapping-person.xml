@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE mapping PUBLIC "-//EXOLAB/Castor Mapping DTD Version 1.0//EN"
+        "http://castor.org/mapping.dtd">
+<mapping>
+    <class name="com.charlie.tools.vo.PersonVO" auto-complete="true">
+        <map-to xml="PersonVO"/>
+
+        <field name="id" type="java.math.BigDecimal">
+            <bind-xml name="id" node="element"/>
+        </field>
+
+        <field name="name" type="java.lang.String">
+            <bind-xml name="name" node="element"/>
+        </field>
+
+        <field name="dob" type="java.util.Date">
+            <bind-xml name="dob" node="element"/>
+        </field>
+    </class>
+</mapping>

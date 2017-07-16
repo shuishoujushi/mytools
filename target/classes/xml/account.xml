@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accounts>
+    <relNo type="String">1111111111</relNo>
+    <chnl type="String">0009</chnl>
+    <sumLedgerBal type="BigDecimal">255</sumLedgerBal>
+    <sumAvailBal type="BigDecimal">255</sumAvailBal>
+    <code type="String">1013</code>
+    <data>
+		<account>
+		    <accType type="String">CURRENT</accType>
+		    <currency type="String">USD</currency>
+		    <accNo type="String">25728357144</accNo>
+		    <accTitle type="String">Account name 1</accTitle>
+		    <accOpenDate type="Date">2006-1-1 14:13:56</accOpenDate>
+		    <productCategory type="String">CASA</productCategory>
+		    <avlBal type="BigDecimal">951531.00</avlBal>
+		    <ledBal type="BigDecimal">951531.00</ledBal>
+		    <lmt type="BigDecimal">0</lmt>
+		    <status type="String">Active</status>
+		</account>
+		<account>
+		    <accType type="String">SAVINGS</accType>
+		    <currency type="String">CNY</currency>
+		    <accNo type="String">25728357145</accNo>
+		    <accTitle type="String">Account name 2</accTitle>
+		    <accOpenDate type="Date">2006-1-1 10:13:56</accOpenDate>
+		    <productCategory type="String">CASA</productCategory>
+		    <avlBal type="BigDecimal">20</avlBal>
+		    <ledBal type="BigDecimal">20</ledBal>
+		    <lmt type="BigDecimal">0</lmt>
+		    <status type="String">Active</status>
+		</account>
+	</data>
+</accounts>
